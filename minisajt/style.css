@@ -9,6 +9,7 @@
   border: solid;
   border-top: 3px #00ffdb;
   border-left: 3px #00ffdb;
+  justify-content: space-between;
 }
 
 body {
@@ -87,7 +88,7 @@ h1 {
     Hamburger
   **/
 .hamburger {
-  position: absolute;
+  position: relative;
   top: 5em;
   right: 5%;
   margin-left: -2em;
