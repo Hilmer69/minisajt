@@ -37,9 +37,8 @@ img {
 
 .rubrik {
   margin-top: 45px;
-  margin-left: 10px;
   color: antiquewhite;
-  text-shadow: 0px 0px 7px #000000;
+  text-shadow: 0px 1px 7px #000000;
 }
 
 .animated-gradient {
