@@ -6,7 +6,9 @@
   background-image: url("water.jpg");
   background-size: cover;
   width: 100%;
-  border: solid, blue;
+  border: solid;
+  border-top: 3px #00ffdb;
+  border-left: 3px #00ffdb;
 }
 
 body {
@@ -15,7 +17,7 @@ body {
 
 .logo {
   width: 12%;
-  margin-right: 3px;
+  margin-left: 5px;
   border-radius: 50%;
   width: 100px;
   height: 100px;
