@@ -12,67 +12,41 @@
   justify-content: space-between;
 }
 
-.Wrapper1 {
+.Wrapper {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   flex-direction: row;
-  background-image: url("coral-reef.jpg");
   background-size: cover;
   width: 90%;
   height: calc(93vh - 100px);
   margin-top: 2vh;
   font-size: larger;
   color: antiquewhite;
-  text-shadow: -1px 1px 12px #000000;
+  text-shadow: 2px 2px 0px rgb(0, 0, 0), 2px -2px 0px rgb(0, 0, 0),
+    -2px 2px 0px rgb(0, 0, 0), -2px -2px 0px rgb(0, 0, 0),
+    2px 0px 0px rgb(0, 0, 0), 0px 2px 0px rgb(0, 0, 0),
+    -2px 0px 0px rgb(0, 0, 0), 0px -2px 0px rgb(0, 0, 0);
   border: solid 3px #00ffdb;
   outline: groove #2e00ff;
   justify-content: space-between;
   border-radius: 10px 10px;
 }
 
-.Wrapper2 {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  flex-direction: row;
+.wrapper-image-1 {
+  background-image: url("coral-reef.jpg");
+}
+
+.wrapper-image-2 {
   background-image: url("Fisk-Koraller.jpg");
-  background-size: cover;
-  width: 40%;
-  height: calc(93vh - 100px);
-  margin-top: 2vh;
-  font-size: larger;
-  color: antiquewhite;
-  text-shadow: 2px 2px 0px rgb(0, 0, 0), 2px -2px 0px rgb(0, 0, 0),
-    -2px 2px 0px rgb(0, 0, 0), -2px -2px 0px rgb(0, 0, 0),
-    2px 0px 0px rgb(0, 0, 0), 0px 2px 0px rgb(0, 0, 0),
-    -2px 0px 0px rgb(0, 0, 0), 0px -2px 0px rgb(0, 0, 0);
-  border: solid 3px #00ffdb;
-  outline: groove #2e00ff;
-  justify-content: space-between;
-  border-radius: 10px 10px;
 }
 
-.Wrapper3 {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  flex-direction: row;
+.wrapper-image-3 {
   background-image: url("clownfisk.jpg");
-  background-size: cover;
-  width: 40%;
-  height: calc(93vh - 100px);
-  margin-top: 2vh;
-  font-size: larger;
-  color: antiquewhite;
-  text-shadow: 2px 2px 0px rgb(0, 0, 0), 2px -2px 0px rgb(0, 0, 0),
-    -2px 2px 0px rgb(0, 0, 0), -2px -2px 0px rgb(0, 0, 0),
-    2px 0px 0px rgb(0, 0, 0), 0px 2px 0px rgb(0, 0, 0),
-    -2px 0px 0px rgb(0, 0, 0), 0px -2px 0px rgb(0, 0, 0);
-  border: solid 3px #00ffdb;
-  outline: groove #2e00ff;
-  justify-content: space-between;
-  border-radius: 10px 10px;
+}
+
+.wrapper-image-4 {
+  background-image: url("whaleshark.webp");
 }
 
 .div1 {
