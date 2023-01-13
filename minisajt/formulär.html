@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulär</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Header">
+      <div class="animated-gradient logo">
+        <img src="Anchor.png" width="100px" height="100px" />
+      </div>
+      <div>
+        <h2 class="rubrik">Bli en av oss</h2>
+      </div>
+      <input id="toggle" type="checkbox" />
+
+      <label for="toggle" class="hamburger">
+        <div class="top-bun"></div>
+        <div class="meat"></div>
+        <div class="bottom-bun"></div>
+      </label>
+
+      <div class="nav">
+        <div class="nav-wrapper">
+          <nav>
+            <a href="sajt.html">HEM</a><br />
+            <a href="haj.html">HAJAR</a><br />
+            <a href="fisk.html">FISKAR</a><br />
+            <a href="formulär.html">FORMULÄR</a><br />
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="Wrapper wrapper-image-5">
+      <div class="form"></div>
+      <div class="form">
+        <p class="rubrik">Skriv in dina uppgifter:</p>
+        <label for="fname">Förnamn</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Förnamn"
+        /><br />
+        <label for="lname">Efternamn</label><br />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Efternamn"
+        /><br />
+        <label for="gndr">Man</label>
+        <input type="radio" id="gndr" name="gndr" placeholder="Kön" />
+        <label for="gndr">Kvinna</label>
+        <input type="radio" id="gndr" name="gndr" placeholder="Kön" /><br />
+        0<input
+          type="range"
+          id="age"
+          name="age"
+          min="0"
+          max="125"
+          value="63"
+          step="1"
+        />125
+        <label for="age"> Ålder</label>
+      </div>
+    </div>
+  </body>
+</html>
