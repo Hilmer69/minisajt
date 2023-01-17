@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/ba2adebb21.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulär</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   </head>
   <body>
     <div class="Header">
@@ -13,29 +18,30 @@
         <img src="Anchor.png" width="100px" height="100px" />
       </div>
       <div>
-        <h2 class="rubrik">Bli en av oss</h2>
+        <h2 class="rubrik">Kontakta oss</h2>
       </div>
-      <input id="toggle" type="checkbox" />
+      <div class="tom">
+        <input id="toggle" type="checkbox" />
 
-      <label for="toggle" class="hamburger">
-        <div class="top-bun"></div>
-        <div class="meat"></div>
-        <div class="bottom-bun"></div>
-      </label>
+        <label for="toggle" class="hamburger">
+          <div class="top-bun"></div>
+          <div class="meat"></div>
+          <div class="bottom-bun"></div>
+        </label>
 
-      <div class="nav">
-        <div class="nav-wrapper">
-          <nav>
-            <a href="sajt.html">HEM</a><br />
-            <a href="haj.html">HAJAR</a><br />
-            <a href="fisk.html">FISKAR</a><br />
-            <a href="formulär.html">FORMULÄR</a><br />
-          </nav>
+        <div class="nav">
+          <div class="nav-wrapper">
+            <nav>
+              <a href="sajt.html">HEM</a><br />
+              <a href="haj.html">HAJAR</a><br />
+              <a href="fisk.html">FISKAR</a><br />
+              <a href="formulär.html">KONTAKTA OSS</a><br />
+            </nav>
+          </div>
         </div>
       </div>
     </div>
     <div class="Wrapper wrapper-image-5">
-      <div class="form"></div>
       <div class="form">
         <p class="rubrik">Skriv in dina uppgifter:</p>
         <label for="fname">Förnamn</label><br />
@@ -45,6 +51,7 @@
           name="fname"
           placeholder="Förnamn"
         /><br />
+        <p></p>
         <label for="lname">Efternamn</label><br />
         <input
           type="text"
@@ -52,20 +59,26 @@
           name="lname"
           placeholder="Efternamn"
         /><br />
-        <label for="gndr">Man</label>
-        <input type="radio" id="gndr" name="gndr" placeholder="Kön" />
-        <label for="gndr">Kvinna</label>
-        <input type="radio" id="gndr" name="gndr" placeholder="Kön" /><br />
-        0<input
-          type="range"
-          id="age"
-          name="age"
-          min="0"
-          max="125"
-          value="63"
-          step="1"
-        />125
-        <label for="age"> Ålder</label>
+        <p></p>
+        <label for="mail">Mail ardess</label><br />
+        <input
+          type="text"
+          id="mail"
+          name="mail"
+          placeholder="exempel.mail@mail.com"
+        /><br />
+        <p></p>
+        <label for="medelande">Medelande</label><br />
+        <input
+          type="text"
+          id="medelande"
+          name="medelande"
+          placeholder="skriv ditt medelande här"
+        /><br />
+        <p></p>
+        <i class="fa-solid fa-water"></i>
+        <p></p>
+        <button>Skicka</button>
       </div>
     </div>
   </body>
