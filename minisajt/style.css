@@ -13,6 +13,8 @@
   border-left: 3px #00ffdb;
   justify-content: space-between;
   font-family: Lora;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .tom {
@@ -54,14 +56,17 @@
 
 .wrapper-image-3 {
   background-image: url("clownfisk.jpg");
+  margin-bottom: 40px;
 }
 
 .wrapper-image-4 {
   background-image: url("whaleshark.webp");
+  margin-bottom: 40px;
 }
 
 .wrapper-image-5 {
   background-image: url("MV.jpg");
+  margin-bottom: 40px;
 }
 
 .div1 {
@@ -81,8 +86,8 @@
 }
 
 .form {
-  margin: auto;
-  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
